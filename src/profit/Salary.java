@@ -1,6 +1,7 @@
 package profit;
 
 public class Salary {
+<<<<<<< HEAD
 	 private double salary;
 	 private double commission;
 	
@@ -26,3 +27,15 @@ public class Salary {
 	        				
 	     }
 }
+=======
+	public double salary;
+	public double commission;
+public Salary () {}
+public Salary(double salary) {
+	this.salary=salary;
+}
+public double getSalary() {
+	return salary;
+}
+}
+>>>>>>> e0d9cde6a74cf16f407deab5165bc5e0f3d3f21b
